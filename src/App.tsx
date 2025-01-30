@@ -1,5 +1,8 @@
 import React from 'react';
 import { QrCode, FileSpreadsheet, AlignJustify as Spotify, Github, ExternalLink } from 'lucide-react';
+import generator from './assets/generator.png'
+import cards from './assets/cards.jpeg'
+import scanning from './assets/scanning.jpeg'
 
 function App() {
   return (
@@ -69,7 +72,7 @@ function App() {
           {/* Generator Screenshot */}
           <div className="md:col-span-5 relative rounded-2xl overflow-hidden shadow-2xl bg-gray-800 max-h-[500px]">
             <img
-              src="/src/assets/generator.png"
+              src={generator}
               alt="Generator app interface showing track list editing"
               className="w-full h-full object-cover"
             />
@@ -84,7 +87,7 @@ function App() {
           {/* Printed Cards */}
           <div className="md:col-span-4 relative rounded-2xl overflow-hidden shadow-2xl bg-gray-800 max-h-[500px]">
             <img
-              src="/src/assets/cards.jpeg"
+              src={cards}
               alt="Printed song cards with QR codes"
               className="w-full h-full object-cover"
             />
@@ -99,7 +102,7 @@ function App() {
           {/* Scanner Screenshot */}
           <div className="md:col-span-3 relative rounded-2xl overflow-hidden shadow-2xl bg-gray-800 max-h-[500px]">
             <img
-              src="/src/assets/scanning.jpeg"
+              src={scanning}
               alt="Mobile app scanning a QR code"
               className="w-full h-full object-cover object-center"
             />
