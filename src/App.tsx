@@ -14,6 +14,9 @@ function App() {
           Create and play musical guessing games with Spotify songs using QR codes. Perfect for parties, game nights, and celebrations!<br />
           100% free and open source.
         </p>
+        <p className="text-xl text-orange-500 mb-8 max-w-2xl mx-auto">
+          Please note that the <b>scanner</b> is a demo product which can only be used by registered demo Spotify users, or by hosting the application yourself with your own Spotify developer client credentials.
+        </p>
         <div className="flex justify-center gap-4">
           <a
             href="https://play.blindsongscanner.com"
